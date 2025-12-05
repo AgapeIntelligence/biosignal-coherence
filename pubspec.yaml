@@ -1,0 +1,26 @@
+name: biosignal_coherence
+description: Real-time mobile biosignal fusion → valence/arousal/coherence
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.11.0
+  google_ml_kit: ^0.17.0
+  sensors_plus: ^5.0.0
+  noise_meter: ^5.0.1
+  vibration: ^2.0.0
+  fft: ^0.3.0
+  path_provider: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
